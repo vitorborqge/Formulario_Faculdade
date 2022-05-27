@@ -1,5 +1,5 @@
 # Formulario_Faculdade
-Formulario com telas de cadastro, login, atualização e Exclusão.
+Formulario para projeto da Faculdade da aula do professor Raphael com telas de cadastro, login, atualização e Exclusão.
 
 Integrantes:
 
