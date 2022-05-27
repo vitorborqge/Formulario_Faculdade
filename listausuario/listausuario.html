@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../hackimg.jpeg">
+    <title>Exibindo Usuários</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script type="text/javascript" src="usuario.js"></script>
+
+    <style>
+        
+        #lista {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+
+        #sl {
+            border-top: 1px black solid;
+        }
+
+        p {
+            font-style: italic;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 id='logado'> </h1>
+                <h2>Usuários</h2>
+                <a href="../cadastro/index.html"> <button type="button" class="btn btn-primary">Adicionar</button></a>
+                <button class="btn btn-danger" onclick="deletar('${deletar}')">Excluir</button>
+                <a class="btn btn-warning" href="../atualizar/atualizar.html?id=${atualizar}">Atualizar</a>
+            </div>
+            
+        </div>
+        <br>
+        <div class="row" id="sl">
+            <div class="col" id="lista">
+
+                <table id="tabelausuario" class="table table-responsive table-hover">
+                    <thead>
+                        <tr>
+
+
+                            <th>Nome:</th>
+                            <th>Sobrenome:</th>
+                            <th>Usuário:</th>
+                            <th>Endereço:</th>
+                            <th>Telefone:</th>
+                            <th>Estado:</th>
+                            <th>Cidade:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
+            </div>
+            
+        </div>
+        <button onclick='sair()'> Sair </button>
+    </div>
+
+    <script>
+        window.onload = (event) => {
+            listar();
+        }
+        function sair(){
+               window.location.href = '../login/index.html'
+            }
+            const listar = async function(){
+  const response = await fetch("http://localhost:3000/usuario/getAll");
+  const livros = await response.json();
+  listagem.forEach((lista) => {
+    //PREENCHE LISTA
+    var tbody = document.getElementById('tabelausuario').getElementsByTagName('tbody')[0];
+    //CRIA UMA NOVA LINHA NA TABELA
+    var row = tbody.insertRow();
+    //CRIA NOVAS COLUNAS PARA A LINHA
+    var email = row.insertCell(0);
+    var primeironome = row.insertCell(1);
+    var usuario = row.insertCell(2);
+    var telefone = row.insertCell(3);
+    var sexomasculino = row.insertCell(4);
+    var sexofeminino = row.insertCell(5);
+    var fotodeperfil = row.insertCell(6);
+    var endereco  = row.insertCell(7);
+    var cidade   = row.insertCell(8);
+    var estadoObj   = row.insertCell(9);
+    var estado   = row.insertCell(10);
+    var datadenascimento   = row.insertCell(11);
+    var area   = row.insertCell(12);
+    var oferta  = row.insertCell(13);
+
+
+ 
+ 
+    //PREENCHE DADOS VINDOS DA BUSCA
+    titulo.innerHTML = livro.titulo;
+    descricao.innerHTML = livro.descricao;
+    publicado.innerHTML = (livro.published == 'True') ? 'Sim' : 'Não';
+    excluir.innerHTML = `<button class="btn btn-danger" onclick="deletarLivro('${livro._id}')">Excluir</button>
+                        <a class="btn btn-warning" href="atualizarLivro.html?id=${livro._id}">Atualizar</a>`;
+  });
+}
+
+            const deletar = async function(deletar){
+                const response = await fetch(`http://localhost:3000/usuario/delete/${deletar}`,  
+                        { method: "DELETE" });
+                        const removeResponse = await response.json();
+                        if (response.status == 200)
+                        location.reload();
+    }
+
+            let userLogado = JSON.parse(localStorage.getItem('userLogado')) 
+            let logado = document.querySelector('#logado')
+            logado.innerHTML = `Olá ${userLogado.nome}` //Mensagem de boas vindas pra o usuario
+
+    
+    </script>
+
+</body>
+
+</html>
