@@ -8,6 +8,7 @@ Integrantes:
 <p>Leonardo Dias Vieira - 07157381</p>
 <p>Tiago Bezerra Dos Santos - 07152838</p>
 <p>Mateus Bastos de Oliveira</p>
+<p>Lucas Pandolpho Cavalcante</p>
 
 <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acesse por meio deste link
 <a>
