@@ -24,28 +24,28 @@ Formulario para projeto da Faculdade da aula do professor Raphael com telas de c
 
 <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acesse por meio deste link</a>
 
-## Modelo 1 - Login
+## 📩 Modelo 1 - Login
 <img src="img/login.jpg">
 
 <h3 align="center">
   <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
 </h3>
 
-## Modelo 2 - Cadastro
+## 📩 Modelo 2 - Cadastro
 <img src="img/cadastro.jpg">
 
 <h3 align="center">
   <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
 </h3>
 
-## Modelo 3 - Atualização
+## 📩 Modelo 3 - Atualização
 <img src="img/atualização.jpg">
 
 <h3 align="center">
   <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
 </h3>
 
-## Modelo 4 - Logado
+## 📩 Modelo 4 - Logado
 <img src="img/listausuario.jpg">
 
 <h3 align="center">
