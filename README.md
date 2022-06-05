@@ -25,28 +25,28 @@ Formulario para projeto da Faculdade da aula do professor Raphael com telas de c
 <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acesse por meio deste link</a>
 
 ## Modelo 1 - Login
-<img src="../img/login.jpg">
+<img src="imglogin.jpg">
 
 <h3 align="center">
   <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
 </h3>
 
 ## Modelo 2 - Cadastro
-<img src="../img/cadastro.jpg">
+<img src="img/cadastro.jpg">
 
 <h3 align="center">
   <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
 </h3>
 
 ## Modelo 3 - Atualização
-<img src="../img/atualização.jpg">
+<img src="img/atualização.jpg">
 
 <h3 align="center">
   <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
 </h3>
 
 ## Modelo 4 - Logado
-<img src="../img/listausuario.jpg">
+<img src="img/listausuario.jpg">
 
 <h3 align="center">
   <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
@@ -55,3 +55,13 @@ Formulario para projeto da Faculdade da aula do professor Raphael com telas de c
 <div align="justify">    
 
 🚀 Tecnologias utilizadas
+
+✔️ HTML5 <img align="center" alt="Vitor-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  
+
+✔️ CSS3 <img align="center" alt="Vitor-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+
+✔️ JS <img align="center" alt="Vitor-JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  </div>
+  
+  Feito por Vitorborqge
