@@ -25,7 +25,7 @@ Formulario para projeto da Faculdade da aula do professor Raphael com telas de c
 <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acesse por meio deste link</a>
 
 ## Modelo 1 - Login
-<img src="imglogin.jpg">
+<img src="img/login.jpg">
 
 <h3 align="center">
   <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
