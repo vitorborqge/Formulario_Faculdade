@@ -25,28 +25,31 @@ Formulario para projeto da Faculdade da aula do professor Raphael com telas de c
 <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acesse por meio deste link</a>
 
 ## Modelo 1 - Login
-<img src="https://ik.imagekit.io/aliceribeiro/Boas-vindas_-_Desktop__img__rneXM8_K_.png">
+<img src="img/login.jpg">
 
 <h3 align="center">
-  <a href="https://github.com/vitorborqge/EmailMarketing">Acessar demonstração</a>
+  <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
 </h3>
+
 ## Modelo 2 - Cadastro
-<img src="https://ik.imagekit.io/aliceribeiro/Boas-vindas_-_Desktop__img__rneXM8_K_.png">
+<img src="img/cadastro.jpg">
 
 <h3 align="center">
-  <a href="https://github.com/vitorborqge/EmailMarketing">Acessar demonstração</a>
+  <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
 </h3>
+
 ## Modelo 3 - Atualização
-<img src="https://ik.imagekit.io/aliceribeiro/Boas-vindas_-_Desktop__img__rneXM8_K_.png">
+<img src="img/atualização.jpg">
 
 <h3 align="center">
-  <a href="https://github.com/vitorborqge/EmailMarketing">Acessar demonstração</a>
+  <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
 </h3>
+
 ## Modelo 4 - Logado
-<img src="https://ik.imagekit.io/aliceribeiro/Boas-vindas_-_Desktop__img__rneXM8_K_.png">
+<img src="img/listausuario.jpg">
 
 <h3 align="center">
-  <a href="https://github.com/vitorborqge/EmailMarketing">Acessar demonstração</a>
+  <a href="https://github.com/vitorborqge/Formulario_Faculdade">Acessar demonstração</a>
 </h3>
 
 <div align="justify">    
